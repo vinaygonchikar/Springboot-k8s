@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hystrix-dashboard-app
-          image: dailycodebuffer/hystrix-dashboard:main
+          image: asia.gcr.io/banded-lexicon-360413/hystrix-dashboard:main
           imagePullPolicy: Always
           ports:
             - containerPort: 9295
