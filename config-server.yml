@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-config-server-app
-          image: dailycodebuffer/cloud-config-server:main
+          image: asia.gcr.io/banded-lexicon-360413/cloud-config-server:main
           imagePullPolicy: Always
           ports:
             - containerPort: 9296
