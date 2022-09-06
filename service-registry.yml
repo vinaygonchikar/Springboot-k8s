@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: dailycodebuffer/service-registry:main
+          image: asia.gcr.io/banded-lexicon-360413/service-registry:main
           imagePullPolicy: Always
           ports:
             - containerPort: 8761
