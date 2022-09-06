@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: department-service-app
-          image: dailycodebuffer/department-service:main
+          image: asia.gcr.io/banded-lexicon-360413/department-service:main
           imagePullPolicy: Always
           ports:
             - containerPort: 9001
