@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-gateway-app
-          image: dailycodebuffer/cloud-gateway:main
+          image: asia.gcr.io/banded-lexicon-360413/cloud-gateway:main
           imagePullPolicy: Always
           ports:
             - containerPort: 9191
